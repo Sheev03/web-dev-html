@@ -1,0 +1,109 @@
+body{
+    background-image: url(Pictures-of-Rocky-Mountains.jpg);
+    background-attachment: fixed;
+    margin: 0;
+
+
+}
+
+
+header{
+    background-color:goldenrod;
+    padding: 12px;
+    overflow: hidden;
+
+}
+
+header a{
+    font-family:'Arial';
+    text-decoration: none;
+    font-size: 16px;
+    padding: 45px;
+    color: #000f;
+}
+
+
+.main{
+    height: 1100px;
+    background-color: whitesmoke;
+    margin-top: 570px;
+}
+
+/*
+
+#ish{
+    
+}
+*/
+.small{
+    font-size: 22px;
+    color: white;
+    font-family: 'lucida sans';
+
+
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: Tahoma;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+
+
+///
+
+body{
+    margin: 0;
+    background-image: url(Pictures-of-Rocky-Mountains.jpg);
+
+
+}
+
+header{
+    background-color:goldenrod;
+    padding: 12px;
+    overflow: hidden;
+
+}
+
+header a{
+    font-family:'Arial';
+    text-decoration: none;
+    font-size: 16px;
+    padding: 45px;
+    color: #000f;
+}
+
+.main{
+    height: 1100px;
+    background-color: whitesmoke;
+    margin-top: 570px;
+}
+
+
+
+/*
+
+#ish{
+    background-attachment: fixed;
+}
+*/
+.small{
+    font-size: 22px;
+    color: white;
+    font-family: 'lucida sans';
+
+
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: Tahoma;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>My favorite color is <del style="color:blue;">blue</del> <ins style="color:red;">red</ins>.</p>
+
+</body>
+</html>
