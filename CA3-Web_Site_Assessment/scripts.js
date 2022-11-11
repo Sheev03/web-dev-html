@@ -1,11 +1,11 @@
-let mapOptions = {
-    center:[55.46282, -4.63025], 
-    zoom:10
-}
 
-let map = new L.map('map', mapOptions);
 
-let layer = new L.TileLayer('https://{s}.title.openstreetmap.org/{z}/{x}/{y}.png');
-map.addLayer(layer);
-let marker = new L.marker([55.46282, -4.63025]);
-marker.addTo(map)
+var map = L.map('map').setView([55.458565, -4.629179], 13);
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+L.marker([55.458565, -4.629179]).addTo(map)
+   
+    .openPopup();

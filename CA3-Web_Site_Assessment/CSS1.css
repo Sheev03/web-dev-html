@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 7746a52b859e710df3107e2dc91b14a1dba9b9ae
 h2{
     font-size: 70px;
     text-decoration:underline;
@@ -29,15 +25,12 @@ h3{
 
 }
 
-<<<<<<< HEAD
 h5{
     font-size: 57px;
     font-family: 'Times new roman';
     margin: 0;
 }
 
-=======
->>>>>>> 7746a52b859e710df3107e2dc91b14a1dba9b9ae
 nav{
     align-items: center;
     display:flex;
@@ -46,7 +39,20 @@ nav{
 
 }
 
+.column a{
+    
+    color: #000;
+    font-family:'Arial Narrow';
+    border:5px solid rgb(101, 131, 45);
+    font-size: 40px;
+    text-decoration: none;
+    float: left;
+}
 
+.column a:hover{
+    transition: .2s;
+    border:4px solid rgb(113, 153, 39);
+}
 
 .subsec a{
     color: #000;
@@ -87,7 +93,7 @@ nav{
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: rgb(245,245,245);
     margin: 0;
 
 }
@@ -169,11 +175,7 @@ p1{
     display:flex;
     justify-content:space-between;
     padding:60px;
-<<<<<<< HEAD
     width: 84;
-=======
-    width: 84%;
->>>>>>> 7746a52b859e710df3107e2dc91b14a1dba9b9ae
     margin-left: 6%;
 }
    
@@ -185,7 +187,6 @@ p1{
     margin-left: 6%;
 }
 
-<<<<<<< HEAD
 .subsec2{
 
     text-align: left;
@@ -214,6 +215,3 @@ p1{
     clear: both;
   }
 
-
-=======
->>>>>>> 7746a52b859e710df3107e2dc91b14a1dba9b9ae
