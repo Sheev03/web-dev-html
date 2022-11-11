@@ -1,3 +1,4 @@
+
 h2{
     font-size: 70px;
     text-decoration:underline;
@@ -23,6 +24,12 @@ h3{
     font-family: 'Times new roman';
     margin: 0;
 
+}
+
+h5{
+    font-size: 57px;
+    font-family: 'Times new roman';
+    margin: 0;
 }
 
 nav{
@@ -156,7 +163,7 @@ p1{
     display:flex;
     justify-content:space-between;
     padding:60px;
-    width: 84%;
+    width: 84;
     margin-left: 6%;
 }
    
@@ -167,4 +174,33 @@ p1{
     width: 84%;
     margin-left: 6%;
 }
+
+.subsec2{
+
+    text-align: left;
+    display:flex;
+    justify-content:space-between;
+    padding:60px;
+    width: 94%;
+    margin-left: 6%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px; 
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 
