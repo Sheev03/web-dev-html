@@ -9,3 +9,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 L.marker([55.458565, -4.629179]).addTo(map)
    
     .openPopup();
+
+// code source - https://leafletjs.com/ //
+
