@@ -5,6 +5,24 @@ h2{
 
 }
 
+.mr-5{
+    margin-right: 125px !important;
+}
+
+.nav-item a{
+    font-family:'Times';
+    text-decoration: none;
+    font-size: 17px;
+    color: #000f;
+    transition: 1s ease;
+}
+
+.nav-item a:hover{
+    transition: .2s;
+    color: #ffff
+}
+
+
 p2{
     font-family:Times;
     font-size:35px;
@@ -113,7 +131,7 @@ body{
 
 header{
     background-color: rgb(101, 131, 45);
-    padding: 12px; 
+    padding: 10px; 
     overflow:hidden  
 }
 
